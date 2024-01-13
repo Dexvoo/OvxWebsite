@@ -248,11 +248,21 @@ nav li a:hover {
 	margin: 0.5em;
 	cursor: pointer;
 }
+.center-text {
+	text-align: center;
+	padding: 3% 5%;
+	font-size: 0.8em;
+}
 
 @media only screen and (min-width: 768px) {
 	.mobile-menu,
 	.mobile-menu-exit {
 		display: none;
+	}
+	.center-text {
+		text-align: center;
+		padding: 3% 5%;
+		font-size: 0.8em;
 	}
 	.navbar .container {
 		display: -ms-grid;
@@ -308,7 +318,8 @@ nav li a:hover {
 @media only screen and (min-width: 1080px) {
 	.center-text {
 		text-align: center;
-		padding: 0% 20%;
+		padding: 3% 25%;
+		font-size: 0.8em;
 	}
 
 	.container {
